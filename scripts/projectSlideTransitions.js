@@ -64,8 +64,8 @@ function checkButtonVisibility() {
     checkButtonShowing(rightButton, rightIndexInBounds(), rightFunction);
 }
 
-function checkButtonShowing(buttonFunc, indexCheck, onClickFunc) {
-    if (!indexCheck) {
+function checkButtonShowing(buttonFunc, inBounds, onClickFunc) {
+    if (!inBounds) {
         hideButton(buttonFunc());
     }
     else {
@@ -73,9 +73,9 @@ function checkButtonShowing(buttonFunc, indexCheck, onClickFunc) {
                 element.style.pointerEvents = 'auto';
                 loadOpacity(element, window.getComputedStyle(element))
             },
-                'fadein', ['fadeout']);
+            'fadein', ['fadeout']);
+        buttonFunc().addEventListener('click', onClickFunc);
     }
-    buttonFunc().addEventListener('click', onClickFunc);
 }
 
 function hideButton(button) {
@@ -83,5 +83,5 @@ function hideButton(button) {
             element.style.pointerEvents = 'none';
             loadOpacity(element, window.getComputedStyle(element))
         },
-            'fadeout', ['fadein']);
+        'fadeout', ['fadein']);
 }

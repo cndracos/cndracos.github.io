@@ -17,7 +17,7 @@ function aboutFirstClicked() {
     resetClickListeners();
 }
 
-function projectFirstClicked(aboutTabClicked) {
+function projectFirstClicked() {
     let personalPhoto = document.getElementById("personalPhoto");
 
     updateElement(personalPhoto, (element) => {

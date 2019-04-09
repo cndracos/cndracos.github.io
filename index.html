@@ -36,7 +36,7 @@
     so I can develop my skills in technology and business.</p>
 
 <div id="photoParent">
-    <img src="images/personal-photo.png" alt="Picture of me!" id="personalPhoto">
+    <img class='lazy' data-src="images/personal-photo.png" alt="Picture of me!" id="personalPhoto">
 </div>
 
 <nav>
@@ -46,7 +46,7 @@
 
 <div id="projectsContainer">
     <div style="left: 12.5%;" class="projectSlide">
-        <img class="slideImage" src="images/vooga-screenshot.png" alt="voogaImage"/>
+        <img class="slideImage lazy" data-src="images/vooga-screenshot.png" alt="voogaImage"/>
         <h3 class="slideHeader"> voogasalad </h3>
         <p class="slideDescription"> Over the course of ten weeks, nine teammates and I created a game authoring program.
             Four separate teams were created from the larger group, and I was a member of the team which designed and
@@ -56,7 +56,7 @@
     </div>
 
     <div style="left: 37.5%;" class="projectSlide">
-        <img class="slideImage" src="images/spherecrypt.gif" alt="sphereGif"/>
+        <img class="slideImage lazy" data-src="images/spherecrypt.gif" alt="sphereGif"/>
         <h3 class="slideHeader"> sphereCrypt </h3>
         <p class="slideDescription"> sphereCrypt is a cryptography algorithm that I created and uses a custom encryption
             / decryption scheme. The algorithm generates a key which is used to decode the encoded message back into
@@ -67,7 +67,7 @@
     </div>
 
     <div style="left: 37.5%;" class="projectSlide">
-        <img class="slideImage" src="images/thread-library-screenshot.png" alt="threadlib"/>
+        <img class="slideImage lazy" data-src="images/thread-library-screenshot.png" alt="threadlib"/>
         <h3 class="slideHeader"> thread_library </h3>
         <p class="slideDescription"> This project was done in a group as a part of the Operating Systems course taught
             at my university, which had us write a thread library that implements thread creation, yielding, locking, and
@@ -78,7 +78,7 @@
     </div>
 
     <div style="left: 37.5%;" class="projectSlide">
-        <img class="slideImage" src="images/website-screenshot.png" alt="websiteImage"/>
+        <img class="slideImage lazy" data-src="images/website-screenshot.png" alt="websiteImage"/>
         <h3 class="slideHeader"> Personal Website </h3>
         <p class="slideDescription"> I personally created the entire website you are currently viewing -- from the
             layout of the elements to the style of transitioning between them. My intention was for the experience to be
@@ -90,6 +90,7 @@
 
 <script src="scripts/tabController.js"></script>
 <script src="scripts/projectSlideTransitions.js"></script>
+<script src="scripts/lazyLoading.js"></script>
 
 </body>
 </html>

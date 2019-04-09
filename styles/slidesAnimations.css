@@ -1,8 +1,8 @@
 /*#region move-left-and-fadeout*/
 .move-left-and-fadeout {
-    -webkit-animation: move-left 2s ease forwards, fadeout 2s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: move-left 2s ease forwards, fadeout 2s ease forwards; /* Firefox < 16 */
-    animation: move-left 2s ease forwards, fadeout 2s ease forwards;
+    -webkit-animation: move-left 1.5s ease forwards, fadeout 1.5s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: move-left 1.5s ease forwards, fadeout 1.5s ease forwards; /* Firefox < 16 */
+    animation: move-left 1.5s ease forwards, fadeout 1.5s ease forwards;
 }
 
 @keyframes move-left {
@@ -28,9 +28,9 @@
 
 /*#region move-right-and-fadeout*/
 .move-right-and-fadeout {
-    -webkit-animation: move-right 2s ease forwards, fadeout 2s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: move-right 2s ease forwards, fadeout 2s ease forwards; /* Firefox < 16 */
-    animation: move-right 2s ease forwards, fadeout 2s ease forwards;
+    -webkit-animation: move-right 1.5s ease forwards, fadeout 1.5s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: move-right 1.5s ease forwards, fadeout 1.5s ease forwards; /* Firefox < 16 */
+    animation: move-right 1.5s ease forwards, fadeout 1.5s ease forwards;
 }
 
 @keyframes move-right {
@@ -56,15 +56,15 @@
 
 /*#region move-center-and-fadeout/fadein*/
 .move-center-and-fadeout {
-    -webkit-animation: move-center 2s ease-out forwards, fadeout 2s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: move-center 2s ease-out forwards, fadeout 2s ease forwards; /* Firefox < 16 */
-    animation: move-center 2s ease-out forwards, fadeout 2s ease forwards;
+    -webkit-animation: move-center 1.5s ease-out forwards, fadeout 1.5s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: move-center 1.5s ease-out forwards, fadeout 1.5s ease forwards; /* Firefox < 16 */
+    animation: move-center 1.5s ease-out forwards, fadeout 1.5s ease forwards;
 }
 
 .move-center-and-fadein {
-    -webkit-animation: move-center 2s ease-in-out forwards, fadein 2s ease forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: move-center 2s ease-in-out forwards, fadein 2s ease forwards; /* Firefox < 16 */
-    animation: move-center 2s ease-in-out forwards, fadein 2s ease forwards;
+    -webkit-animation: move-center 1.5s ease-in-out forwards, fadein 1.5s ease forwards; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: move-center 1.5s ease-in-out forwards, fadein 1.5s ease forwards; /* Firefox < 16 */
+    animation: move-center 1.5s ease-in-out forwards, fadein 1.5s ease forwards;
 }
 
 @keyframes move-center {

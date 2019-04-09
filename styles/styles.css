@@ -51,11 +51,11 @@ body {
 
     position: absolute;
     min-width: 200px;
-    max-width: 75%;
+    max-width: 62.5%;
     height: auto;
     z-index: 12;
     top: 52.5%;
-    left: 50%;
+    left: 56.25%;
     margin: -50px 0 0 -37.5%;
 }
 
@@ -117,7 +117,7 @@ h3.slideHeader {
 }
 
 p.slideDescription {
-    font-size: 14px;
+    font-size: 16px;
 
     position: relative;
     height: 50%;
